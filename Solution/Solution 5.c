@@ -10,7 +10,7 @@ void main()
     for(i=0; i<5; i++)
     {
         printf("Enter name %d:",i+1);
-
+        flushall();
         gets(s[i]);
     }
 // Logic:  TO how many vovels in string.
