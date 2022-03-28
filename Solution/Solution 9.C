@@ -1,4 +1,4 @@
-/*Wap a program to enter 5 value and print only enven num among them*/
+/*Wap a program to enter 5 value and print only enven num among them and short them using udf*/
 #include<stdio.h>
 #include<conio.h>
 void input();
@@ -49,7 +49,6 @@ void even(int a[])
      if(a[i]%2==0)
        printf("%d,",a[i]);
   }
-
 }
 void shorting(int a[])
 {
@@ -65,9 +64,7 @@ void shorting(int a[])
 	  a[i]=a[j];
 	  a[j]=sw;
        }
-
      }
-
    }
    for(i=0;i<5;i++)
      printf("%d,",a[i]);
