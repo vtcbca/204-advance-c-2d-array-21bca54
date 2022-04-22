@@ -44,7 +44,7 @@ void main()
     }
     printf("\n");
   }
-    printf("\nThe Subtractiontion of Matrix:");
+    printf("\nThe Subtraction of Matrix:");
     printf("\n===================\n");
     for(i=0;i<3;i++)
   {
