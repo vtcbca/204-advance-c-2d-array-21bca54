@@ -1,4 +1,4 @@
-/* Write a program to enter two 3x3 matrix and print its multiplication table
+/* Write a program to enter two 3x3 matrix and print it Addition table
 */
 
 
@@ -44,7 +44,7 @@ void main()
     }
     printf("\n");
   }
-    printf("\nThe Subtraction of Matrix:");
+    printf("\nThe Addition of Matrix:");
     printf("\n===================\n");
     for(i=0;i<3;i++)
   {
